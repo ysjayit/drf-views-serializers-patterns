@@ -40,3 +40,12 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 Development server will be started at http://127.0.0.1:8000
+5. **Running tests**:
+Run all tests
+```shell
+pytest
+```
+Run one test file
+```shell
+pytest tests\dir\test_sample_xxxx.py
+```
